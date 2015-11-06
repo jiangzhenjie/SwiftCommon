@@ -97,6 +97,9 @@
 		332EF7B41BEC518700B26F71 /* SwiftCommon */ = {
 			isa = PBXGroup;
 			children = (
+				332EF7E31BEC55BB00B26F71 /* Utility */,
+				332EF7E41BEC55BB00B26F71 /* View */,
+				332EF7E51BEC55BB00B26F71 /* ViewController */,
 				332EF7B51BEC518700B26F71 /* AppDelegate.swift */,
 				332EF7B71BEC518700B26F71 /* ViewController.swift */,
 				332EF7B91BEC518700B26F71 /* Main.storyboard */,
@@ -123,6 +126,27 @@
 				332EF7D71BEC518700B26F71 /* Info.plist */,
 			);
 			path = SwiftCommonUITests;
+			sourceTree = "<group>";
+		};
+		332EF7E31BEC55BB00B26F71 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		332EF7E41BEC55BB00B26F71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		332EF7E51BEC55BB00B26F71 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,6 +508,7 @@
 				332EF7DC1BEC518700B26F71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		332EF7DD1BEC518700B26F71 /* Build configuration list for PBXNativeTarget "SwiftCommonTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +517,7 @@
 				332EF7DF1BEC518700B26F71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		332EF7E01BEC518700B26F71 /* Build configuration list for PBXNativeTarget "SwiftCommonUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +526,7 @@
 				332EF7E21BEC518700B26F71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
