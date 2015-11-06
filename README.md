@@ -3,12 +3,12 @@ SwiftCommon project includes something that can be reused in the future.
 
 ## ViewControllers
 
-### SCImageCropperViewController
+### [SCImageCropperViewController](https://github.com/jiangzhenjie/SwiftCommon/blob/master/SwiftCommon/ViewController/SCImageCropperViewController.swift)
 
 #### Usage
-It's easy to use this cropper, you implement the protocol `SAPIImageCropperDelegate` first step and then push or present the cropper view controller.
+It's easy to use this cropper, you implement the protocol `SCImageCropperDelegate` first and then push or present the cropper view controller.
 
-Implement SCImageCropperDelegate to handle the result:
+Implement the SCImageCropperDelegate to handle the results:
 
 	protocol SCImageCropperDelegate {
     
