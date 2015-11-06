@@ -11,10 +11,8 @@ It's easy to use this cropper, you implement the protocol `SCImageCropperDelegat
 Implement the SCImageCropperDelegate to handle the results:
 
 	protocol SCImageCropperDelegate {
-    
     	func imageCropper(cropper: SCImageCropperViewController, didFinishCroppedWithImage resultImage: UIImage)
     	func imageCropperDidCancel(cropper: SCImageCropperViewController)
-    
 	}
 	
 Push or present the cropper view controller after getting a image:
