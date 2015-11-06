@@ -14,6 +14,7 @@
 		332EF7C01BEC518700B26F71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332EF7BE1BEC518700B26F71 /* LaunchScreen.storyboard */; };
 		332EF7CB1BEC518700B26F71 /* SwiftCommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332EF7CA1BEC518700B26F71 /* SwiftCommonTests.swift */; };
 		332EF7D61BEC518700B26F71 /* SwiftCommonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332EF7D51BEC518700B26F71 /* SwiftCommonUITests.swift */; };
+		332EF7EB1BEC5CA200B26F71 /* SCImageCropperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332EF7EA1BEC5CA200B26F71 /* SCImageCropperViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		332EF7D11BEC518700B26F71 /* SwiftCommonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCommonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		332EF7D51BEC518700B26F71 /* SwiftCommonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCommonUITests.swift; sourceTree = "<group>"; };
 		332EF7D71BEC518700B26F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		332EF7EA1BEC5CA200B26F71 /* SCImageCropperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCImageCropperViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		332EF7E51BEC55BB00B26F71 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				332EF7EA1BEC5CA200B26F71 /* SCImageCropperViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332EF7EB1BEC5CA200B26F71 /* SCImageCropperViewController.swift in Sources */,
 				332EF7B81BEC518700B26F71 /* ViewController.swift in Sources */,
 				332EF7B61BEC518700B26F71 /* AppDelegate.swift in Sources */,
 			);
